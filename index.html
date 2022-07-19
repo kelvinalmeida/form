@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="element">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        
+        <form action="#" id="survey-form">
+            
+            <label for="nome" id="name-label">Nome</label>
+            <input id="name" type="text" name="nome" placeholder="enter your name" required>
+            
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type="text" name="email" pattern=".+@.+\.com" placeholder="enter your email" required>
+            
+            <label for="age" id="number-label">Age (optional)</label>
+            <input id="number" type="number" name="age" min="1" max="100" placeholder="Ex: 27">
+    
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown" name="dropdown">
+            <option value="Student">Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full time job">Full time job</option>
+            </select>
+            
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div>
+                <input type="radio" id="definitely" name="recomend" value="Definitely">
+                <label for="definitely">Definitely</label> </br>
+                <input type="radio" id="maybe" name="recomend" value="Maybe">
+                <label for="maybe">Maybe</label>
+            </div>
+    
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <div>
+                <input type="checkbox" id="front-end" name="Front-end" value="Front-end Projects">
+                <label for="front-end">Front-end Projects</label><br>
+                <input type="checkbox" id="back-end" name="Back-end" value="Back-end Projects">
+                <label for="back-end">Back-end Projects</label><br>
+                <input type="checkbox" id="data" name="Data" value="Data Visualization">
+                <label for="data">Data Visualization</label>
+            </div>
+    
+            <p>Any comments or suggestions?</p>
+            <textarea name="comment" rows="10" cols="30"></textarea>
+    
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
