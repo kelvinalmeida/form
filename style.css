@@ -117,7 +117,7 @@ html, body {
         width:90vw;
     }
 
-    #element #description {
+    #element #description, #title {
         text-align: center;
     }
 
