@@ -109,12 +109,12 @@ html, body {
 
 #element #survey-form #submit {
     width: 100px;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 @media screen and (max-width: 550px) {
     #element {
-        width:450px;
+        width:70vw;
     }
 
     #element #description {
@@ -122,10 +122,10 @@ html, body {
     }
 
     #element #survey-form #name {
-        width: 420px;
+        width: 65vw;
     }
     
     #element #survey-form #email {
-        width: 420px;
+        width: 65vw;
     }
   }
