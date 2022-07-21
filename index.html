@@ -18,24 +18,24 @@
         
         <form action="#" id="survey-form">
             
-            <label for="nome" id="name-label">Nome</label>
+            <label for="name" id="name-label">Nome</label>
             <input id="name" type="text" name="nome" placeholder="enter your name" required>
             
             <label for="email" id="email-label">Email</label>
-            <input id="email" type="text" name="email" pattern=".+@.+\.com" placeholder="enter your email" required>
+            <input id="email" type="email" name="email" pattern=".+@.+\.com" placeholder="enter your email" required>
             
             <label for="age" id="number-label">Age (optional)</label>
             <input id="number" type="number" name="age" min="1" max="100" placeholder="Ex: 27">
     
             <label for="dropdown">Which option best describes your current role?</label>
             <select id="dropdown" name="dropdown">
-            <option value="Student">Select current role</option>
-            <option value="Student">Student</option>
-            <option value="Full time job">Full time job</option>
+                <option value="Student">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
             </select>
             
             <p>Would you recommend freeCodeCamp to a friend?</p>
-            <div>
+            <div id="recommend">
                 <input type="radio" id="definitely" name="recomend" value="Definitely">
                 <label for="definitely">Definitely</label> </br>
                 <input type="radio" id="maybe" name="recomend" value="Maybe">
@@ -43,7 +43,7 @@
             </div>
     
             <p>What would you like to see improved? (Check all that apply)</p>
-            <div>
+            <div id="youLike">
                 <input type="checkbox" id="front-end" name="Front-end" value="Front-end Projects">
                 <label for="front-end">Front-end Projects</label><br>
                 <input type="checkbox" id="back-end" name="Back-end" value="Back-end Projects">

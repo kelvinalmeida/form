@@ -30,6 +30,7 @@ html, body {
 
 #survey-form input {
     margin: 5px;
+    /* width: 450px; */
 }
 
 #survey-form select {
@@ -60,12 +61,71 @@ html, body {
     margin: 5px 1px 1px 5px;
 }
 
+#element #survey-form #number {
+    width: 60px;
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #number {
+    width: 60px;
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #dropdown {
+    width: 150px;
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #recommend input {
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #recommend label {
+    margin: 1px 1px 1px 1px;
+}
+
+#element #survey-form #youLike input {
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #youLike label {
+    margin: 1px 1px 1px 1px;
+}
+
+#element #survey-form #name {
+    width: 470px;
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #email {
+    width: 470px;
+    margin: 1px 1px 1px 15px;
+}
+
+#element #survey-form #textarea {
+    /* width: 470px; */
+    margin: 1px 15px;
+}
+
 #element #survey-form #submit {
-    margin: 5px 1px 1px 5px;
+    width: 100px;
+    margin-left: 40%;
 }
 
 @media screen and (max-width: 550px) {
     #element {
         width:450px;
+    }
+
+    #element #description {
+        text-align: center;
+    }
+
+    #element #survey-form #name {
+        width: 420px;
+    }
+    
+    #element #survey-form #email {
+        width: 420px;
     }
   }
