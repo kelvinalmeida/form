@@ -114,7 +114,7 @@ html, body {
 
 @media screen and (max-width: 550px) {
     #element {
-        width:70vw;
+        width:90vw;
     }
 
     #element #description {
@@ -122,10 +122,10 @@ html, body {
     }
 
     #element #survey-form #name {
-        width: 65vw;
+        width: 80vw;
     }
     
     #element #survey-form #email {
-        width: 65vw;
+        width: 80vw;
     }
   }
